@@ -65,13 +65,13 @@ export const REQUEST_TIMEOUT_MS = 60000;
 export const EXPORT_MESSAGE_CLASS_NAME = "export-markdown";
 
 export enum ServiceProvider {
-  OpenAI = "OpenAI",
-  Azure = "Azure",
+  // OpenAI = "OpenAI",
+  // Azure = "Azure",
   Google = "Google",
 }
 
 export enum ModelProvider {
-  GPT = "GPT",
+  // GPT = "GPT",
   GeminiPro = "GeminiPro",
 }
 
@@ -103,7 +103,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gemini-pro";
+export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
